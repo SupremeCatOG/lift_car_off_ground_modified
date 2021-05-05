@@ -1,6 +1,8 @@
 # lift_car_off_ground_modified
 Improved the raising/lowering animation, also synched it for all the clients, and if your client has raised a vehicle someone else can lower said vehicle.
 
+Now the resource will also work if you rename it.
+
 Thanks to: v0dka and Qzen for helping me with testing and figuring stuff out.
 
 Credits for the original script go to: blazin23
