@@ -1,11 +1,10 @@
 -- raise the closest car --
-RegisterCommand("raisecar", function(source, args, raw)
-	
-	TriggerClientEvent('raisecar', source)
+RegisterNetEvent(GetCurrentResourceName() .. ":raiseCar")
+AddEventHandler(GetCurrentResourceName() .. ":raiseCar", function(netId)
+	TriggerClientEvent(GetCurrentResourceName() .. ":raiseCar", -1, netId, source)
 end)
 
--- lower the previously raised car --
-RegisterCommand("lowercar", function(source, args, raw)
-	
-	TriggerClientEvent('lowercar', source)
+RegisterNetEvent(GetCurrentResourceName() .. ":lowerCar")
+AddEventHandler(GetCurrentResourceName() .. ":lowerCar", function(netId)
+	TriggerClientEvent(GetCurrentResourceName() .. ":lowerCar", -1, netId, source)
 end)
