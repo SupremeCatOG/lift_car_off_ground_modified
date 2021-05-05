@@ -5,4 +5,4 @@ Thanks to: v0dka and Qzen for helping me with testing and figuring stuff out.
 
 Credits for the original script go to: blazin23
 
-Link for the original script: https://forum.cfx.re/t/free-lift-car-off-ground-standalone/2808217
+Link to the original script: https://forum.cfx.re/t/free-lift-car-off-ground-standalone/2808217
